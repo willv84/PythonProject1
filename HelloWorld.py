@@ -1,1 +1,7 @@
-print ("Hello World!!!")
+print("Hello World!!!")
+print("Please enter your name..")
+name = input()
+print("Ok, nice to meet you  " + name)
+print(name+ " Do you want me to generate a user ID for you?\nPlease write YES or NO")
+answer = input()
+print("You have selected " +answer)
